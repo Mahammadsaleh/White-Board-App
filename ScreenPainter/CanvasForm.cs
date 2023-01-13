@@ -211,7 +211,7 @@ namespace ScreenPainter
 
                     // Draw a portion of the image. Scale that portion of the image
                     // so that it fills the destination rectangle.
-                    RectangleF sourceRect = new RectangleF(e.X - width / 6, e.Y - height / 6, width / 2, height / 2);
+                    RectangleF sourceRect = new RectangleF(e.X - width / 4, e.Y - height / 4, width / 2, height / 2);
                     g.DrawImage(
                         bmpScreenshot,
                         destinationRect,
